@@ -1,0 +1,41 @@
+| Environment | Full Name                  | Purpose                                        | Who Uses It                  |
+| ----------- | -------------------------- | ---------------------------------------------- | ---------------------------- |
+| **DEV**     | Development                | Developers test and debug their code           | Developers                   |
+| **SIT**     | System Integration Testing | Test how modules/services work together        | QA / Developers              |
+| **NFT**     | Non-Functional Testing     | Performance, security, and scalability testing | QA / Performance Engineers   |
+| **UAT**     | User Acceptance Testing    | Verify business requirements & workflows       | Business users / QA team     |
+| **PROD**    | Production                 | Live environment for real users                | End users / DevOps / Support |
+
+
+       👩‍💻 Developer Coding Environment (Local)
+                    ↓
+        ┌────────────────────────┐
+        │      DEV (Development) │
+        │  - Latest code         │
+        │  - Rapid iteration     │
+        │  - Unstable builds     │
+        └────────────────────────┘
+                    ↓
+        ┌────────────────────────┐
+        │     SIT (Integration)  │
+        │  - Module integration  │
+        │  - API/data validation │
+        └────────────────────────┘
+                    ↓
+        ┌────────────────────────┐
+        │     NFT (Performance)  │
+        │  - Load & stress tests │
+        │  - Vulnerability scan  │
+        └────────────────────────┘
+                    ↓
+        ┌────────────────────────┐
+        │     UAT (Acceptance)   │
+        │  - Business testing    │
+        │  - Pre-production test │
+        └────────────────────────┘
+                    ↓
+        ┌────────────────────────┐
+        │     PROD (Production)  │
+        │  - Live users/data     │
+        │  - SLA/monitoring      │
+        └────────────────────────┘
